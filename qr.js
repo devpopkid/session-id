@@ -70,36 +70,36 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "KANGO-XMD~" + string_session;
+                        let md = "POPKID~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `*╭━━━━━━━━━━━━━━━━━━━━━╮
-┃  🚀 KANGO-XMD USER 🚀  ┃
+┃  🚀 POPKID-XMD USER 🚀  ┃
 ╰━━━━━━━━━━━━━━━━━━━━━╯
 
-👋🏻 Hello there, KANGO-XMD User!  
+👋🏻 Hello there, POPKID-XMD User!  
 
 > ⚠️ *Do not share your session ID with your GF!* 😂  
 
-✅ **Thanks for using KANGO-XMD!** 🚩  
+✅ **Thanks for using POPKID-XMD!** 🚩  
 
 ━━━━━━━━━━━━━━━━━━━━━━━  
 
 📢 **Join our WhatsApp Channel:**  
-🔗 https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E  
+🔗 https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l  
 
 ⭐ **Don't forget to fork the repo:**  
-🔗 https://github.com/OfficialKango/KANGO-XMD  
+🔗 https://github.com/Popkiddevs/POPKID-XTECH 
 
 ━━━━━━━━━━━━━━━━━━━━━━━  
 
-> *© Powered by HECTOR MANUEL 🚀*`;
+> *© Powered by popkid xtech 🚀*`;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: " 𝖇𝖔𝖙 𝖈𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
 thumbnailUrl: "https://files.catbox.moe/7pg2gp.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E",
+sourceUrl: "https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -109,33 +109,33 @@ renderLargerThumbnail: true
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
                             let desc = `*╭━━━━━━━━━━━━━━━━━━━━━╮
-┃  🚀 KANGO-XMD USER 🚀  ┃
+┃  🚀 POPKID-XMD USER 🚀  ┃
 ╰━━━━━━━━━━━━━━━━━━━━━╯
 
 👋🏻 Hello there, KANGO-XMD User!  
 
 > ⚠️ *Do not share your session ID with your GF!* 😂  
 
-✅ **Thanks for using KANGO-XMD!** 🚩  
+✅ **Thanks for using POPKID-XMD!** 🚩  
 
 ━━━━━━━━━━━━━━━━━━━━━━━  
 
 📢 **Join our WhatsApp Channel:**  
-🔗 https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E  
+🔗 https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l  
 
 ⭐ **Don't forget to fork the repo:**  
-🔗 https://github.com/OfficialKango/KANGO-XMD  
+🔗 https://github.com/Popkiddevs/POPKID-XTECH  
 
 ━━━━━━━━━━━━━━━━━━━━━━━  
 
-> *© Powered by HECTOR MANUEL 🚀*`;
+> *© Powered by popkid 🚀*`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: " 𝖒𝖉 𝖈𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
 thumbnailUrl: "https://i.imgur.com/GVW7aoD.jpeg",
-sourceUrl: "https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E",
+sourceUrl: "https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
